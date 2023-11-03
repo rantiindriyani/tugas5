@@ -1,0 +1,29 @@
+{
+  "name": "latihannpm",
+  "version": "1.0.0",
+  "description": "Belajar NodeJS NPM",
+  "exports": {
+    "." : "./index.js",
+    "./write" : "./write.js"
+
+  },
+  "scripts": {
+    "prestart": "echo 'Before Application Start' ",
+    "start": "node index.js",
+    "poststart": "echo' After Application Start ' ",
+    "run": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "programerzaman",
+    "pzn",
+    "nodejs",
+    "npm"
+  ],
+  "author": "Ranti Indriyani",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "lodash": "4.17.21"
+  }
+}
